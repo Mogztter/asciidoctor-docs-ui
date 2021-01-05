@@ -252,6 +252,7 @@ body {
 
   #search {
     position: relative; /* make results relative to whole search field, not just input */
+    height: fit-content; /* ensure that the search input and the filter checkbox have the same height */
   }
 
   #search > .algolia-autocomplete {

@@ -45,3 +45,14 @@
     max-height: calc(var(--viewport-height) - var(--navbar-height));
   }
 }
+
+@media (max-width: 768px) {
+  .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--subcategory-column {
+    margin-right: 0.25em;
+    font-weight: 500;
+  }
+
+  .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
+    padding: 0 0.05em;
+  }
+}
